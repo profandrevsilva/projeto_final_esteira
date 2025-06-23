@@ -1,24 +1,57 @@
 
-> Abrir essa página em [https://profandrevsilva.github.io/projeto_final_esteira/](https://profandrevsilva.github.io/projeto_final_esteira/)
+# 🚀 Projeto: Mini Linha de Montagem Automatizada com Micro:bit
 
-## Usar como extensão
+Este projeto foi desenvolvido como atividade educacional para introdução à automação e robótica, utilizando a **placa Micro:bit** e materiais recicláveis.
 
-Este repositório pode ser adicionado como **extensão** no MakeCode.
+## 🎯 Objetivo
 
-* abrir [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* clique em **Novo Projeto**
-* clique em **Extensões** em baixo do menu com ícone de engrenagem
-* procure por **https://github.com/profandrevsilva/projeto_final_esteira** e importe
+Montar uma **mini estação de linha de montagem automatizada**, simulando o funcionamento de uma indústria real. O projeto foca nos **4 pilares da Cultura Maker**:
 
-## Editar este projeto
+1. **Criatividade:** Criar com as próprias mãos (mão na massa!).
+2. **Colaboração:** Trabalho em grupo de 4 pessoas, seguindo o esquema de produção de uma linha de montagem.
+3. **Sustentabilidade:** Uso de papelão e materiais reaproveitados.
+4. **Escalabilidade:** Projeto simples e replicável, que pode ser reproduzido por outras turmas.
 
-Para editar este repositório no MakeCode.
+## 🧰 Materiais Utilizados
 
-* abrir [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* clique em **Importar** e depois clique em **Importar URL**
-* cole **https://github.com/profandrevsilva/projeto_final_esteira** e clique em importar
+- Placa **Micro:bit**
+- Motor DC ou Servo motor
+- Driver de motor (exemplo: L293D, ou módulo compatível)
+- Papelão (caixas recicladas)
+- Fios e jumpers
+- Fonte de alimentação (bateria ou cabo USB)
+- Ferramentas básicas: tesoura, cola quente, fita adesiva, etc.
 
-#### Metadados (usados para pesquisa, renderização)
+## 🛠️ Funcionamento
 
-* for PXT/microbit
-<script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
+O sistema simula uma etapa de uma linha de montagem. Com o código carregado no Micro:bit, o motor realiza movimentos controlados, como **empurrar ou transportar uma peça**, seguindo comandos básicos de tempo e lógica de programação.
+
+## 👩‍💻 Programação
+
+A programação foi feita usando o **Microsoft MakeCode** (https://makecode.microbit.org/).
+ - link para o projeto no makecode: https://makecode.microbit.org/S84034-82075-88933-10965 
+
+### Exemplo de lógica de controle:
+
+- Ligar o motor por um determinado tempo.
+- Parar o motor.
+- Esperar uma nova ativação (pode ser por botão, tempo ou outro sensor).
+
+**Observação:** Inclua seu arquivo `.hex` ou o código em bloco no repositório.
+
+## 🌱 Cultura Maker aplicada:
+
+- **Reaproveitamento:** Estrutura feita com papelão de descarte.
+- **Trabalho em equipe:** Divisão de tarefas (montagem, programação, testes).
+- **Documentação:** Este repositório é parte da etapa de documentação, reforçando a importância da escalabilidade e compartilhamento do conhecimento.
+
+## 📸 Fotos do Protótipo
+
+(Adicione aqui imagens do seu protótipo montado)
+
+## 📚 Licença
+
+Projeto educacional livre para uso e reprodução com finalidades pedagógicas.
+
+---
+
